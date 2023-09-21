@@ -92,6 +92,7 @@ a {
   border-radius: var(--border-radius);
   padding: 1rem;
   overflow: hidden;
+  transition: height var(--speed) ease;
 }
 
 .menu-item {
@@ -153,7 +154,7 @@ a {
 }
 
 .menu-secondary-exit {
-  position: absolute;
+  
 }
 
 .menu-secondary-exit-active {
